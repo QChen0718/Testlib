@@ -34,8 +34,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/QChen0718/Testlib.git", :tag => "1.0.0" }
 
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "TestLib", "TestLib/**/*.{h,m}"
+  spec.exclude_files = "TestLib/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
