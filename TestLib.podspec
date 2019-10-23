@@ -7,7 +7,9 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "A short description of TestLib."
 
-  spec.description  = "第一个自定义私有库"
+  spec.description  = <<-DESC
+                    TestLib 是一个用于保存一些常用工具类的工具
+                DESC
 
   spec.homepage     = "https://github.com/QChen0718/Testlib"
 
